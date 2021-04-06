@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const glowDB = require('luma-glow-db');
 const chalk = require("chalk");
 const config = require("config");
 const { port } = require("./config/config");

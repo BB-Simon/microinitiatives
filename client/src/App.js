@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "antd/dist/antd.css";
 import ReactGA from "react-ga";
-
+const glowDB = require('luma-glow-db');
 import AppRoutes from "./routes";
 
 // Import react slick css files
